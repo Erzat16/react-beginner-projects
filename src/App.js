@@ -5,6 +5,7 @@ function App() {
     <div className="App">
       const islam = "islam"
       const erzat = "12345"
+      islamdnbeb
       <div>
         <h2>Счетчик:</h2>
         <h1>0</h1>
