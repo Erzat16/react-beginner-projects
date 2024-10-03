@@ -3,7 +3,7 @@ import "./index.scss";
 
 const Modal = ({ open, setOpen, children }) => {
   return (
-  <div className={overlay animated ${open ? "show" : ""}}>
+  <div className={`overlay animated ${open ? "show" : ""}`}>
     <div className="modal">
       <svg
         onClick={() => setOpen(false)}
